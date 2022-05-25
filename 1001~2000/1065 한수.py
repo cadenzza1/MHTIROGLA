@@ -1,13 +1,11 @@
-def is_hansu(n : int):
-    hansu_cnt = 0
-    for i in range(1,n+1):
-        num_list = list(map(int,str(i)))
+def hansu(num):
+    cnt = 0
+    for i in range(1,int(num)+1):
         if i < 100:
-            hansu_cnt += 1
-        elif num_list[0] - num_list[1] == num_list[1] - num_list[2]:
-            hansu_cnt += 1
-    return hansu_cnt
+            cnt += 1
+        elif int((str(i))[0])-int((str(i))[1]) == int((str(i))[1]) - int((str(i))[2]):
+            cnt += 1
+    return cnt
 
-n = int(input())
-print(is_hansu(n))
-
+num = input()
+print(hansu(num))
