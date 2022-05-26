@@ -12,3 +12,14 @@ for i in range(len(res)):
 
 for j in range(10):
     print(arr[j])
+
+# ------------------------------
+# 깔끔한 코드
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# result = list(str(a * b * c))
+# for i in range(10):
+#     print(result.count(str(i)))
