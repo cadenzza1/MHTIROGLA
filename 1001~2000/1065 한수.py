@@ -9,3 +9,4 @@ def hansu(num):
 
 num = input()
 print(hansu(num))
+    
