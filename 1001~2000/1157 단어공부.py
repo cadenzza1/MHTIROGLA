@@ -5,7 +5,6 @@ cnt_list = []
 for x in unique_words:
     cnt = word.count(x)
     cnt_list.append(cnt) # count 숫자를 리스트에 append
-    print(cnt_list)
 
 if cnt_list.count(max(cnt_list)) > 1: # count 숫자 최대값이 중복되면 
     print('?')
