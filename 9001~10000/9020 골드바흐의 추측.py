@@ -14,6 +14,7 @@ for _ in range(int(input())): # 입력받은 수 만큼의 테스트케이스를
     while a > 0:
         if isPrime(a) and isPrime(b):
             print(a,b)
+            break
             
         else:
             a -= 1
