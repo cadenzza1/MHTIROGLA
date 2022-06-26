@@ -19,3 +19,5 @@ def star(l):
     return stars
 
 print('\n'.join(star(n)))
+
+# 솔직히 문제 이해 안댐;
