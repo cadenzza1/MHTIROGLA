@@ -1,6 +1,5 @@
 n = int(input())
 stat = []
-rank = []
 for i in range(n):
     stat.append(list(map(int,input().split())))
 
