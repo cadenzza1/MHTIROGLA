@@ -1,12 +1,8 @@
-n = int(input())
-student_stat = []
+dict = {
+    "A" : "집",
+    "B" : "에가고",
+    "C" : "싶다",
+}
 
-for _ in range(n):
-    student_stat.append(list(map(int,input().split())))
-
-for i in student_stat:
-    rank = 1
-    for j in student_stat:
-        if i[0] < j[0] and i[1] < j[1]:
-            rank += 1
-    print(rank, end = ' ')
+for x,y in enumerate(dict):
+    print(x,y)
