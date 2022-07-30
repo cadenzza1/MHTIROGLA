@@ -13,3 +13,5 @@ while 1:
         break
 
 print(cnt)
+
+print("For Everyday Commit")
