@@ -1,8 +1,4 @@
-dict = {
-    "A" : "집",
-    "B" : "에가고",
-    "C" : "싶다",
-}
+li = map(int,input().split())
 
-for x,y in enumerate(dict):
-    print(x,y)
+a,b,c = li
+print(a,b,c)
