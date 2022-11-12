@@ -9,7 +9,7 @@ def factorial(n):
     return ans
 
 def e_hang(n,k):
-    return factorial(n) / factorial(k) / factorial(n-k)
+    return int(factorial(n) / factorial(k) / factorial(n-k))
 
 n , k = map(int,input().split())
 
