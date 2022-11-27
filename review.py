@@ -1,16 +1,16 @@
-def is_prime(num):
-    m = int(num ** 0.5)
-    if num == 1:
-        return False
-    
-    else:
-        for i in range(2,m+1):
-            if num % i == 0:
-                return False
-        else:
-            return True
+from collections import deque
 
-m,n = map(int,input().split())
-for i in range(m,n+1):
-    if is_prime(i) == True:
-        print(i)
+lis = list(range(3))
+li = [1,2,3,4]
+dd = deque()
+test = deque(list(range(3)))
+test2 = deque()
+test2.append(list(range(3)))
+
+print(*lis)
+print(li)
+print(dd)
+print(test)
+print(test2)
+print(*test)
+print(*test2)
