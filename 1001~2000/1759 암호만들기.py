@@ -1,4 +1,4 @@
-from itertools import permutations,combinations
+from itertools import combinations
 
 l,c = map(int,input().split())
 c_arr = sorted(list(input().split()))
@@ -19,8 +19,3 @@ for i in combinations(c_arr,l):
     flag = i == sorted(i)
     if mo_cnt >= 1 and ja_cnt >= 2 and flag:
         print("".join(i))
-#         result.append("".join(i))
-
-# result.sort()
-# for i in result:
-#     print(i)
