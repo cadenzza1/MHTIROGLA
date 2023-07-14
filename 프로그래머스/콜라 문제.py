@@ -7,3 +7,5 @@ def solution(a, b, n):
         n = (n % a) + trade
         
     return answer
+
+# hello
