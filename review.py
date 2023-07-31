@@ -1,5 +1,2 @@
-test = "hihello"
-if 'hi' in test:
-    print("yes")
-    print("우리 강산 푸르게 푸르게")
-    
+hi = [0] * 10
+print(hi)
