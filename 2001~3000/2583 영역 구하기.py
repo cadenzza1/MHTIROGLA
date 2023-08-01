@@ -2,7 +2,6 @@ m,n,k = map(int,input().split())
 
 graph = [[0] * n for _ in range(m)]
 visited = [[False] * n for _ in range(m)]
-print(visited)
 
 for i in range(k):
     x1,y1,x2,y2 = map(int,input().split())
