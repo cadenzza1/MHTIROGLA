@@ -35,4 +35,4 @@ for i in range(m):
             result.append(cnt)
 
 result.sort()
-print(result)
+# print(result)
