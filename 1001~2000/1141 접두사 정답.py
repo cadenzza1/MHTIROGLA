@@ -13,4 +13,4 @@ for i in range(n):
     if flag != True:
         res +=1
 
-print(res)
+# print(res)
