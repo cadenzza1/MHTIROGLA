@@ -8,4 +8,3 @@ def solution(a, b, n):
         
     return answer
 
-# hello
