@@ -1,2 +1,8 @@
-test = (lambda x,y : x+y)(2,5)
-print(test)
+test = {
+    1 : 'a',
+    2 : 'b'
+}
+
+print(len(test))
+
+print(3//2)
