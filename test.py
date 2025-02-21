@@ -1,13 +1,2 @@
-from itertools import permutations, combinations
-
-num = [1,2,3,4]
-li = ['A','B','C','D']
-z = zip(num,li)
-for i in z:
-    print(i)
-
-#nPa = permutations(li, 3)
-#nCa = combinations(li,3)
-
-#print('npa: ',list(nPa))
-#print('nca: ',list(nCa))
+citations = [0, 0, 3, 7, 8, 9, 13, 19, 23]
+print(citations[-9])
