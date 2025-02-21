@@ -1,2 +1,3 @@
-citations = [0, 0, 3, 7, 8, 9, 13, 19, 23]
-print(citations[-9])
+from itertools import permutations
+
+print(''.join(['1','3','4']))
